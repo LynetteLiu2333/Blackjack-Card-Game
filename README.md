@@ -38,15 +38,15 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### What I learned
 
-1. JavaScript Basics: This project involves fundamental JavaScript concepts such as variables, functions, loops, conditional statements, and event handling. It demonstrates how these elements are used to create interactive web applications.
+1. JavaScript Basics: This project involves fundamental JavaScript concepts such as variables, functions, loops, conditional statements, and event handling.
 
-2. DOM Manipulation: The code interacts with the Document Object Model (DOM) to dynamically update the HTML content based on game events and user interactions. Understanding DOM manipulation is crucial for building interactive web interfaces.
+2. DOM Manipulation: The code interacts with the Document Object Model (DOM) to dynamically update the HTML content based on game events and user interactions.
 
-3. Algorithmic Thinking: The project requires implementing game logic, including card value calculation, handling Aces, determining winners, and managing game flow. This fosters algorithmic thinking and problem-solving skills.
+3. Algorithmic Thinking: The project requires implementing game logic, including card value calculation, handling Aces, determining winners, and managing game flow.
 
 ### Continued development
 
-To elevate the code to a more advanced level, transitioning to Object-Oriented Programming (OOP) principles is key. This entails restructuring the code into classes, each encapsulating related functionality and data attributes. By employing constructor functions or ES6 class syntax, objects can be initialized with properties and methods, promoting better organization and readability. Leveraging inheritance and polymorphism allows for a hierarchy of classes, enabling reuse of common functionalities and promoting modularity. Encapsulation of DOM manipulation and event handling separate the game logic from interface interactions, enhancing code maintainability. With error handling mechanisms in place and thorough unit testing, the refactored codebase will offer a more robust foundation, facilitating future enhancements and expansions with ease.
+To elevate the code to a more advanced level, transitioning to Object-Oriented Programming (OOP) principles is key. By employing constructor functions or ES6 class syntax, objects can be initialized with properties and methods, promoting better organization and readability. Leveraging inheritance and polymorphism allows for a hierarchy of classes, enabling reuse of common functionalities and promoting modularity. Encapsulation of DOM manipulation and event handling separate the game logic from interface interactions, enhancing code maintainability. With error handling mechanisms in place and thorough unit testing, the refactored codebase will offer a more robust foundation.
 
 ## Author
 
