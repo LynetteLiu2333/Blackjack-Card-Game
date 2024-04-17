@@ -46,7 +46,6 @@ function runGame() {
     document.getElementById("stay").addEventListener("click", stay);
 }
 
-
 function hit() {
     if (!canHit) {
         alert("You lost the game! Can't draw a new card! Please restart the game.");
@@ -76,20 +75,20 @@ function stay() {
 
     let message = "";
     if (yourSum > 21) {
-        message = "You Lose!";
+        message = "🚨 You Lose! 🚨";
     }
     else if (dealerSum > 21) {
-        message = "You win!";
+        message = "🎉 You win! 🎉";
     }
     //both you and dealer <= 21
     else if (yourSum == dealerSum) {
-        message = "Tie!";
+        message = "😐 Tie! 😐";
     }
     else if (yourSum > dealerSum) {
-        message = "You Win!";
+        message = "🎉 You Win! 🎉";
     }
     else if (yourSum < dealerSum) {
-        message = "You Lose!";
+        message = "🚨 You Lose! 🚨";
     }
 
     document.getElementById("dealer-sum").innerText = dealerSum;
