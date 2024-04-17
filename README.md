@@ -38,15 +38,15 @@ Add a screenshot of your solution. The easiest way to do this is to use Firefox 
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+1. JavaScript Basics: This project involves fundamental JavaScript concepts such as variables, functions, loops, conditional statements, and event handling. It demonstrates how these elements are used to create interactive web applications.
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+2. DOM Manipulation: The code interacts with the Document Object Model (DOM) to dynamically update the HTML content based on game events and user interactions. Understanding DOM manipulation is crucial for building interactive web interfaces.
+
+3. Algorithmic Thinking: The project requires implementing game logic, including card value calculation, handling Aces, determining winners, and managing game flow. This fosters algorithmic thinking and problem-solving skills.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+To elevate the code to a more advanced level, transitioning to Object-Oriented Programming (OOP) principles is key. This entails restructuring the code into classes, each encapsulating related functionality and data attributes. By employing constructor functions or ES6 class syntax, objects can be initialized with properties and methods, promoting better organization and readability. Leveraging inheritance and polymorphism allows for a hierarchy of classes, enabling reuse of common functionalities and promoting modularity. Encapsulation of DOM manipulation and event handling separate the game logic from interface interactions, enhancing code maintainability. With error handling mechanisms in place and thorough unit testing, the refactored codebase will offer a more robust foundation, facilitating future enhancements and expansions with ease.
 
 ## Author
 
