@@ -47,22 +47,15 @@ function runGame() {
 }
 
 function hit() {
-    // if (!canHit) {
-    //     // alert("You lost the game! Can't draw a new card! Please restart the game.");
-    //     document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
-    //     return;
-    // }
+    if (!canHit) {
+        document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
+        return;
+    }
 
     dealCard("player");
 
     if (reduceAce(yourSum, yourAceCount) > 21) {
         canHit = false;
-    }
-
-    if (!canHit) {
-        // alert("You lost the game! Can't draw a new card! Please restart the game.");
-        document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
-        return;
     }
 
     document.getElementById("your-sum").innerText = yourSum;
@@ -81,27 +74,9 @@ function stay() {
     document.getElementById("hidden").src = `./images/cards-images/${hidden}.png`;
 
     displayMessage();
-    // let message = "";
-    // if (yourSum > 21) {
-    //     message = "🚨 You Lose! 🚨";
-    // }
-    // else if (dealerSum > 21) {
-    //     message = "🎉 You win! 🎉";
-    // }
-    // //both you and dealer <= 21
-    // else if (yourSum == dealerSum) {
-    //     message = "😐 Tie! 😐";
-    // }
-    // else if (yourSum > dealerSum) {
-    //     message = "🎉 You Win! 🎉";
-    // }
-    // else if (yourSum < dealerSum) {
-    //     message = "🚨 You Lose! 🚨";
-    // }
 
     document.getElementById("dealer-sum").innerText = dealerSum;
     document.getElementById("your-sum").innerText = yourSum;
-    // document.getElementById("results").innerText = message;
 }
 
 function displayMessage() {
