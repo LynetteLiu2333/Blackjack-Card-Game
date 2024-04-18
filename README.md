@@ -20,7 +20,7 @@ This project implements a simplified version of the classic card game Blackjack.
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://blackjack-card-game-u6hd.onrender.com)
+- Live Site URL: [https://blackjack-card-game-u6hd.onrender.com]
 
 ### Built with
 
