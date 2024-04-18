@@ -47,16 +47,22 @@ function runGame() {
 }
 
 function hit() {
-    if (!canHit) {
-        // alert("You lost the game! Can't draw a new card! Please restart the game.");
-        document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
-        return;
-    }
+    // if (!canHit) {
+    //     // alert("You lost the game! Can't draw a new card! Please restart the game.");
+    //     document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
+    //     return;
+    // }
 
     dealCard("player");
 
     if (reduceAce(yourSum, yourAceCount) > 21) {
         canHit = false;
+    }
+
+    if (!canHit) {
+        // alert("You lost the game! Can't draw a new card! Please restart the game.");
+        document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
+        return;
     }
 
     document.getElementById("your-sum").innerText = yourSum;
