@@ -10,6 +10,7 @@ window.onload = function() {
     buildDeck();
     shuffleDeck();
     runGame();
+    document.getElementById("reset-button").addEventListener("click", resetGame);
 }
 
 function buildDeck() {
@@ -51,7 +52,7 @@ function hit() {
         document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
         return;
     }
-       
+
     dealCard("player");
 
     if (reduceAce(yourSum, yourAceCount) > 21) {
