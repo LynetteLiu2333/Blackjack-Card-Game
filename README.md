@@ -3,14 +3,12 @@
 ## Table of contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-- [Author](#author)
 
 ## Overview
 
@@ -24,15 +22,13 @@ This project implements a simplified version of the classic card game Blackjack.
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
-
 ### Built with
 
 - HTML
 - CSS 
 - Javascript
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+## My process
 
 ### What I learned
 
@@ -45,7 +41,3 @@ This project implements a simplified version of the classic card game Blackjack.
 ### Continued development
 
 To elevate the code to a more advanced level, transitioning to Object-Oriented Programming (OOP) principles is key. By employing constructor functions or ES6 class syntax, objects can be initialized with properties and methods, promoting better organization and readability. Leveraging inheritance and polymorphism allows for a hierarchy of classes, enabling reuse of common functionalities and promoting modularity. Encapsulation of DOM manipulation and event handling separate the game logic from interface interactions, enhancing code maintainability. With error handling mechanisms in place and thorough unit testing, the refactored codebase will offer a more robust foundation.
-
-## Author
-
-- Mengyao Liu
