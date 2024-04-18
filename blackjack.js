@@ -51,7 +51,12 @@ function hit() {
         document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
         return;
     }
-
+    // Check if the player's current total exceeds 21
+    if (reduceAce(yourSum, yourAceCount) > 21) {
+        document.getElementById("results").innerText = "You already have more than 21 points!";
+        return;
+    }
+    
     dealCard("player");
 
     if (reduceAce(yourSum, yourAceCount) > 21) {
