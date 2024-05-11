@@ -40,4 +40,16 @@ This project implements a simplified version of the classic card game Blackjack.
 
 ### Continued development
 
-For future development, consider implementing the code in Object-Oriented Programming (OOP). Utilize constructor functions or ES6 classes for object initialization to enhance organization and readability. Employ inheritance and polymorphism to build class hierarchies, enabling reuse of functionalities and enhancing modularity. Separate game logic from interface interactions by encapsulating DOM manipulation and event handling, thus improving maintainability. Ensure a stronger, more reliable codebase by implementing error handling and thorough unit testing during refactoring.
+For future development, consider implementing React, we can encapsulate the game logic into reusable components. Consider refactoring the existing codebase into a React application follow these guidelines:
+
+1. Componentize the UI: Break down the UI into components such as Player, Dealer, Card, Button, and Result. Each component will represent a specific part of the game interface, making the code more modular and easier to maintain.
+
+2. State Management with useState(): Utilize React's useState hook to manage state variables like yourSum, dealerSum, canHit, etc. This allows for reactive updates to the UI based on changes in game state.
+
+3. Event Handling with useEffect(): Use useEffect hook to handle side effects like dealing cards, checking game results, and updating the UI accordingly. This ensures that the UI reflects the current state of the game.
+
+4. Conditional Rendering: Implement conditional rendering to display different UI elements based on the game state. For example, show the "Hit" and "Stay" buttons only when the player can make a move.
+
+5. Component Lifecycle Methods: Utilize lifecycle methods like componentDidMount and componentDidUpdate to perform actions like shuffling the deck, dealing cards, and updating the game state.
+
+6. Error Handling: Implement error boundaries to gracefully handle errors that may occur during the game execution, ensuring a smooth user experience.
