@@ -25,7 +25,7 @@ This project implements a simplified version of the classic card game Blackjack.
 ### Built with
 
 - HTML
-- CSS 
+- CSS
 - Javascript
 
 ## My process
