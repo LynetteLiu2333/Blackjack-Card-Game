@@ -47,6 +47,22 @@ function runGame() {
     document.getElementById("stay").addEventListener("click", stay);
 }
 
+function dealCard(receiver) {
+    let cardImg = document.createElement("img");
+    let card = deck.pop();
+    cardImg.src = `./images/cards-images/${card}.png`;
+
+    if (receiver === "player") {
+        yourSum += getValue(card);
+        yourAceCount += checkAce(card);
+        document.getElementById("your-cards").append(cardImg);
+    } else {
+        dealerSum += getValue(card);
+        dealerAceCount += checkAce(card);
+        document.getElementById("dealer-cards").append(cardImg);
+    }
+}
+
 function hit() {
     if (!canHit) {
         document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
@@ -100,22 +116,6 @@ function displayMessage() {
     }
 
     document.getElementById("results").innerText = message;
-}
-
-function dealCard(receiver) {
-    let cardImg = document.createElement("img");
-    let card = deck.pop();
-    cardImg.src = `./images/cards-images/${card}.png`;
-
-    if (receiver === "player") {
-        yourSum += getValue(card);
-        yourAceCount += checkAce(card);
-        document.getElementById("your-cards").append(cardImg);
-    } else {
-        dealerSum += getValue(card);
-        dealerAceCount += checkAce(card);
-        document.getElementById("dealer-cards").append(cardImg);
-    }
 }
 
 function getValue(card) {
