@@ -40,16 +40,4 @@ This project implements a simplified version of the classic card game Blackjack.
 
 ### Continued development
 
-For future development, consider implementing React, we can encapsulate the game logic into reusable components. Consider refactoring the existing codebase into a React application follow these guidelines:
-
-1. Componentize the UI: Break down the UI into components such as Player, Dealer, Card, Button, and Result. Each component will represent a specific part of the game interface, making the code more modular and easier to maintain.
-
-2. State Management with useState(): Utilize React's useState hook to manage state variables like yourSum, dealerSum, canHit, etc. This allows for reactive updates to the UI based on changes in game state.
-
-3. Event Handling with useEffect(): Use useEffect hook to handle side effects like dealing cards, checking game results, and updating the UI accordingly. This ensures that the UI reflects the current state of the game.
-
-4. Conditional Rendering: Implement conditional rendering to display different UI elements based on the game state. For example, show the "Hit" and "Stay" buttons only when the player can make a move.
-
-5. Component Lifecycle Methods: Utilize lifecycle methods like componentDidMount and componentDidUpdate to perform actions like shuffling the deck, dealing cards, and updating the game state.
-
-6. Error Handling: Implement error boundaries to gracefully handle errors that may occur during the game execution, ensuring a smooth user experience.
+For future development, consider expanding the game into a two-person experience played in real-time by implementing a multiplayer feature. This would allow players to engage in blackjack matches against each other, adding a competitive edge and social interaction to the game. By integrating real-time communication functionalities, such as chat or voice capabilities, players can interact with each other during gameplay, enhancing the overall gaming experience. Additionally, you could incorporate features like player profiles, leaderboards, and customizable avatars to further immerse players in the multiplayer environment.
