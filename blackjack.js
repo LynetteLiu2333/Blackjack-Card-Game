@@ -65,7 +65,8 @@ function dealCard(receiver) {
 
 function hit() {
     if (!canHit) {
-        document.getElementById("results").innerText = "You lost the game! Can't draw a new card! Please restart the game.";
+        document.getElementById("results").innerText = 
+            "❗️Can't draw a new card❗️ You've lost the game❗️ 😭 Time for a restart❗️";
         return;
     }
 

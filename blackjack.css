@@ -1,3 +1,10 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
     background-image: url("images/background.jpg");
@@ -8,19 +15,25 @@ body {
     color: goldenrod;
 }
 
+h2 {
+    margin: 5px 10px;
+    padding: 5px 10px;
+}
+
 #dealer-cards img {
     height: 175px;
     width: 125px;
-    margin: 1px;
+    margin: 5px;
 }
 
 #your-cards img {
     height: 175px;
     width: 125px;
-    margin: 1px;
+    margin: 5px;
 }
 
 button {
+    margin: 10px;
     color: #016f32;
     background: goldenrod;
     width: 100px;
@@ -29,7 +42,8 @@ button {
 }
 
 .header {
-    padding: 10px;
+    margin: 5px 10px;
+    padding: 5px 10px;
     text-align: center;
     color: goldenrod;
     font-size: 30px;
