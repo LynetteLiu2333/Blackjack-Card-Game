@@ -16,7 +16,7 @@ This project implements a simplified version of the classic card game Blackjack.
 
 ### Screenshot
 
-![image](https://github.com/LynetteLiu2333/Blackjack-Card-Game/assets/90663407/8ed76838-8c6a-4381-96bb-06951b6f8e60)
+![image](screenshot.png)
 
 ### Links
 
