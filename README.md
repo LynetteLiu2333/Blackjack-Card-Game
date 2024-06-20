@@ -30,10 +30,10 @@ This project implements a simplified version of the classic card game Blackjack.
 
 ## My process
 
-### What I learned
+### What I Learned
 
-1. JavaScript Basics: This project involves fundamental JavaScript concepts such as variables, functions, loops, conditional statements, and event handling.
+- **JavaScript Fundamentals:** I deepened my knowledge of core JavaScript concepts such as variable declarations (`let`, `const`, `var`), creating and invoking functions to encapsulate game logic, using loops (`for`, `while`) for iterating over the card deck and player hands, and applying conditional statements (`if-else`) to manage game decisions, such as checking for busts or blackjacks. Additionally, I practiced setting up event listeners to handle user interactions, like dealing cards and starting new games.
 
-2. DOM Manipulation: The code interacts with the Document Object Model (DOM) to dynamically update the HTML content based on game events and user interactions.
+- **DOM Manipulation:** The project required extensive interaction with the Document Object Model (DOM). I learned how to select HTML elements using methods like `document.getElementById` and `querySelector`, and dynamically update their content with `innerHTML` and `textContent` to reflect the current game state. I also applied CSS classes and inline styles dynamically to visually represent changes in the game, such as highlighting active players and indicating winners.
 
-3. Algorithmic Thinking: The project requires implementing game logic, including card value calculation, handling Aces, determining winners, and managing game flow.
+- **Algorithmic Thinking:** I developed and refined algorithms to handle complex game logic. This included calculating the value of a player's hand with special handling for Aces (worth 1 or 11 points), managing the sequence of game events such as dealing cards, checking for busts, and determining winners. I also implemented randomization techniques using `Math.random` to shuffle the deck and ensure fair card distribution, enhancing the game's unpredictability and realism.
