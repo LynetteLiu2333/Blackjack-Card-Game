@@ -37,7 +37,3 @@ This project implements a simplified version of the classic card game Blackjack.
 2. DOM Manipulation: The code interacts with the Document Object Model (DOM) to dynamically update the HTML content based on game events and user interactions.
 
 3. Algorithmic Thinking: The project requires implementing game logic, including card value calculation, handling Aces, determining winners, and managing game flow.
-
-### Continued development
-
-For future development, consider expanding the game into a two-person experience played in real-time by implementing a multiplayer feature. This would allow players to engage in blackjack matches against each other, adding a competitive edge and social interaction to the game. By integrating real-time communication functionalities, such as chat or voice capabilities, players can interact with each other during gameplay, enhancing the overall gaming experience.
